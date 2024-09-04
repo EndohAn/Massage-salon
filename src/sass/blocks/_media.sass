@@ -1,0 +1,328 @@
+@media screen and ( max-width:1240px )
+    .container
+        max-width: 1220px
+    .nav__list
+        justify-content: flex-end
+
+    .item,
+    .subtext
+        a
+            font-size: 0.7rem
+
+    .nav__list-btn
+        width: 157px
+        height: 45px  
+    .wrapper
+        flex-direction: column
+    .wrapper__contact
+        width: 50%                      
+    .card
+        &__text
+            font-size: 1.4rem
+    .price
+        font-size: 1.8rem
+
+
+
+@media (max-width: 1110px)
+    .container
+        max-width: 1100px
+    
+    .navbar
+        a
+            font-size: 0.8rem
+    .nav__list
+        justify-content: flex-start
+    .promo__text
+        font-size: 0.9rem
+
+    .subtext
+        padding-right: 0
+        border: none
+        margin: 10px 0
+        a
+            font-size: 1.5rem
+            color: #000   
+    .submenu
+       height: 33px
+      
+    .submenu__list
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: #fff
+        top: 0
+        left:-100%
+        width: 70%
+        height: 100vh
+        padding: 20px 15px
+        transition: 0.6s all
+        z-index: 9
+        &-active 
+            left: 0             
+	
+	
+    .submenu__menu-btn
+      
+        display: block
+        position: absolute
+        top: 85px
+        right: 40px      
+        width: 40px
+        height: 12px
+        span 
+            display: block 
+            height: 2px
+            width: 100%
+            background-color: #000 
+            margin-bottom: 8px
+            transition: 0.5s all
+            &:nth-child(4)
+                font-size: 12px
+                font-weight: 600
+                width: 50px
+                height: 0
+                margin-top: 10px
+        &-active 
+            span 
+                margin-bottom: -2px 
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+                &:nth-child(4)
+                    display: none    
+
+   
+@media (max-width: 1025px)
+    .container
+        max-width: 1015px 
+    .navbar__list
+        gap: 0   
+    .navbar__item
+        padding-left: 25px
+    .navbar__item:nth-last-child(-n+3) 
+        margin-left: 23px
+
+@media (max-width: 820px)
+    .container
+        max-width: 810px
+    .logo
+        img
+            max-width:200px 
+            height: auto
+
+    .item
+        a
+            font-size: 0.5rem   
+    .promo__title
+        padding: 50px 0 30px
+    .promo__text
+        display: inline-block
+        width: 80%
+    .promo__item
+        span
+            margin: 10px 5px
+            padding: 12px 10px
+            
+    .menu__wrapper-card
+        margin: 50px 0 20px 
+    .contact__wrapper
+        align-items: flex-start     
+    .contact__block
+        max-width: 340px 
+    .footer__btn
+        max-width: 260px
+        padding: 8px
+    .footer__copy
+        font-size: 12px
+
+
+@media screen and ( max-width: 640px  )
+    .container
+        max-width: 630px
+    .mobile__logo-box
+        height: 80px    
+    .header
+        display: none
+    .header__mobile
+        display: block
+    .mobile__inner
+        position: fixed
+        background-color: #fff
+        top: 0
+        left:-100%
+        width: 100%
+        height: 100vh
+        padding: 20px 15px
+        transition: 0.6s all
+        z-index: 9
+        &-active
+            left: 0
+           
+                
+
+       
+       
+    .header__mobile-wrapper
+        display: flex
+        flex-direction: column  
+
+    .mobile__burger-btn
+        
+        display: block
+        position: absolute
+        top: 21px
+        right: 40px      
+        width: 40px
+        height: 12px
+        z-index: 100
+        span 
+            display: block 
+            height: 2px
+            width: 100%
+            background-color: #000 
+            margin-bottom: 8px
+            transition: 0.5s all
+            &:nth-child(4)
+                font-size: 12px
+                font-weight: 600
+                width: 50px
+                height: 0
+                margin-top: 10px
+        &-active 
+            span 
+                margin-bottom: -2px 
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+                &:nth-child(4)
+                    display: none    
+
+    
+    .logo
+        img
+            max-width:170px 
+            height: auto
+    .submenu__mobile
+        display: flex
+       
+    .submenu__list-mobile
+        flex-direction: column
+        width: 100%
+        justify-content: flex-start
+    .subtext
+        margin: 0
+        border-bottom: 1px solid #000
+        width: 100%
+        a
+            font-size: 1rem        
+
+    
+    .nav__list
+        justify-content: flex-start
+        ul
+            flex-direction: column 
+            align-items: flex-start
+    .item 
+        a
+            font-size: 0.7rem
+            border-right: 0       
+    .item
+        &::before
+            content: '<'
+            position: relative
+            bottom: -2px
+            left: 0
+        a
+            margin-left: 10px    
+    .nav__list-btn
+        width: 100%
+        margin-left: 0
+    .btn__recruit,
+    .btn__contact
+        a
+            img
+                width: 25px
+                height: 25px 
+                margin-right: 5px       
+
+    .shop__button,
+    .book__button
+        position: static
+       
+       
+        a
+          display: inline         
+          writing-mode: horizontal-tb          
+          margin-left: 248px
+    
+    .navbar__list
+        display: none
+    .wrapper__info
+        padding: 0 10px
+    .menu__wrapper-card
+        img 
+            width: 290px
+            height: 183px   
+    .card__text,
+    .price 
+        font-size: 1.3rem
+    
+    .contact__wrapper
+        flex-direction: column
+        align-items: center
+    .contact__book
+        margin-top: 30px
+
+    .footer__wrapper
+        margin: 30px 5px 
+        flex-direction: column
+    .footer__info,
+    .footer__mail 
+        justify-content: center
+        
+@media screen and ( max-width: 430px )
+    .shop__button,
+    .book__button       
+       a
+         margin-left: 150px
+
+    .wrapper__info-title
+        font-size: 1.4rem
+@media screen and ( max-width: 390px )
+    .container
+        max-width: 380px
+    .shop__button,
+    .book__button       
+       a
+         margin-left: 135px    
+    .phone__text
+        font-size: 0.9rem
+    .phone__number
+        font-size: 1.4rem
+    .contact__btn
+        font-size: 0.7rem
+    .wrapper__info-title
+        font-size: 1rem
+    .wrapper__info-address
+        font-size: 0.8rem    
+    .wrapper__contact-info
+        padding: 10px  
+
+    .footer__text
+        display: none    
+    .contact__social
+        gap: 5px
+        margin-top: 15px
+    .footer__copy
+        font-size: 11px
+
+
+ 

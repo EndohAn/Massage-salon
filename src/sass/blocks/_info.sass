@@ -1,0 +1,76 @@
+.info
+    background-color: #ece7e7
+.wrapper
+    display: flex
+    justify-content: space-between  
+    align-items: center    
+    padding: 20px 0
+.wrapper__info
+    &-title
+        font-size: 2.1rem
+        font-weight: 500
+    &-address
+        color: $table-color  
+
+.wrapper__contact
+    display: flex
+    flex-direction: column
+    width: 480px
+    &-phone
+        display: flex
+        width: 100%
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: center
+    &-info 
+        margin-top: 15px
+        padding: 10px 20px 10px 40px
+        +border
+     
+        dl
+            display: flex
+            flex-wrap: wrap
+            margin-bottom: 0
+          
+            dt
+                width: 70px
+                font-size: 0.8rem
+            dd
+                width: calc( 100% - 70px )
+                color: $table-color 
+                padding-left: 3px
+
+           
+.phone__text
+    width: 100%
+.phone__img,
+.line__img
+    width: 30px
+    height: 30px 
+    margin: 0 10px 3px 0  
+.phone__number     
+
+    color: #A72A2E
+    font-size:1.8rem
+    line-height: 1
+    margin-bottom: 0
+    a
+        color: inherit
+.contact__btn
+    display: inline-block
+    width: 250px 
+    height: 35px
+    background: $line-color
+    color: #fff
+    font-size: 0.9rem
+    text-align: center
+    border: none
+    padding: 3px
+    &:hover
+        color: #fff
+        text-decoration: none
+        opacity: 0.8
+        transition: 0.5s all 
+       
+    
+

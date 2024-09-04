@@ -1,0 +1,51 @@
+.menu
+    background: $main-color
+    &__wrapper 
+        text-align: center
+     
+        &-card 
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+            gap: 20px
+            margin: 50px 0 150px
+            img
+                max-width: 100%
+                width: 450px
+                height: 280px
+               
+    &__title 
+        display: inline-flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background: url('../img/bg_h1.svg') no-repeat center center
+        min-width: 135px
+        min-height: 135px
+        font-size: 2.6rem
+.card
+    a
+        color: #fff
+        text-decoration: none
+        
+    &__info 
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center 
+    &__text 
+        font-size: 1.7rem
+        margin-top: 30px                  
+
+               
+.time 
+    margin-right: 10px
+    padding: 3px 10px
+    background: $accent-color
+    color: #000
+    font-weight: bold
+    vertical-align: middle
+.price
+    font-size: 2rem
+    font-weight: 500
+    vertical-align: middle
